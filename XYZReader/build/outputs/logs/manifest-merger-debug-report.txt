@@ -1,0 +1,150 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:1:1-48:12
+	package
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:2:5-36
+	android:versionName
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:8:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:9:22-76
+application
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:11:5-46:19
+MERGED from [com.android.support:support-v13:25.3.0] /home/diegoguimaraes/.android/build-cache/983dfa68ed285af2ff9f334d3ec6f48610d83f55/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/diegoguimaraes/.android/build-cache/63c44591a82c25aae8dfc6df1a94f3fff1de965b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.0] /home/diegoguimaraes/.android/build-cache/1fa1dca773eb8ba280e5fec0b53bbe0ec1e81479/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] /home/diegoguimaraes/.android/build-cache/547bb8c55853e5822ec44f3a837ef5cb358f0ee3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/diegoguimaraes/.android/build-cache/e1071fd9b8a09b08cf181423fc9caba05efe30ee/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/diegoguimaraes/.android/build-cache/2717b708b2b409573c763cb268e45a1b04d8c8e7/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/diegoguimaraes/.android/build-cache/4bce77ad0365f3977e3de102d784d2685e39f72c/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:palette-v7:25.3.0] /home/diegoguimaraes/.android/build-cache/cb6dd9ce005d6d59a048cd74887ba5f0df531e21/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/diegoguimaraes/.android/build-cache/4eedbce2342a2ae0221a07696112a67c4e2f37bd/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/diegoguimaraes/.android/build-cache/036c94c6fd0d4539278622ebc89eca5f2dc37639/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] /home/diegoguimaraes/.android/build-cache/5c5a145a2213c6f738b2469cd0c86f2b022353dc/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.3.0] /home/diegoguimaraes/.android/build-cache/68fde5f115bf8aef90e45be5f52faa097570ea28/output/AndroidManifest.xml:26:5-20
+	android:label
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:13:9-43
+	android:theme
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:15:9-43
+activity#com.example.xyzreader.ui.ArticleListActivity
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:17:9-24:20
+	android:label
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:19:13-45
+	android:name
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:18:13-51
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:20:13-23:29
+action#android.intent.action.MAIN
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:22:27-74
+activity#com.example.xyzreader.ui.ArticleDetailActivity
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:26:9-37:20
+	android:parentActivityName
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:28:13-65
+	android:name
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:27:13-53
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:29:13-33:29
+action#android.intent.action.VIEW
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:31:17-76
+	android:name
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:31:27-73
+data
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:32:17-100
+	android:mimeType
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:32:23-97
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:34:13-36:59
+	android:value
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:36:17-56
+	android:name
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:35:17-63
+service#com.example.xyzreader.data.UpdaterService
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:39:9-40:40
+	android:exported
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:39:18-53
+provider#com.example.xyzreader.data.ItemsProvider
+ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:42:9-44:40
+	android:authorities
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:43:13-56
+	android:exported
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:42:19-53
+uses-sdk
+INJECTED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v13:25.3.0] /home/diegoguimaraes/.android/build-cache/983dfa68ed285af2ff9f334d3ec6f48610d83f55/output/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/diegoguimaraes/.android/build-cache/63c44591a82c25aae8dfc6df1a94f3fff1de965b/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.0] /home/diegoguimaraes/.android/build-cache/1fa1dca773eb8ba280e5fec0b53bbe0ec1e81479/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] /home/diegoguimaraes/.android/build-cache/547bb8c55853e5822ec44f3a837ef5cb358f0ee3/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/diegoguimaraes/.android/build-cache/e1071fd9b8a09b08cf181423fc9caba05efe30ee/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/diegoguimaraes/.android/build-cache/2717b708b2b409573c763cb268e45a1b04d8c8e7/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/diegoguimaraes/.android/build-cache/4bce77ad0365f3977e3de102d784d2685e39f72c/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.3.0] /home/diegoguimaraes/.android/build-cache/cb6dd9ce005d6d59a048cd74887ba5f0df531e21/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/diegoguimaraes/.android/build-cache/4eedbce2342a2ae0221a07696112a67c4e2f37bd/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /home/diegoguimaraes/.android/build-cache/1d152fe342fca541441adce9acc7f3d040395ed8/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/diegoguimaraes/.android/build-cache/036c94c6fd0d4539278622ebc89eca5f2dc37639/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.0] /home/diegoguimaraes/.android/build-cache/5c5a145a2213c6f738b2469cd0c86f2b022353dc/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.3.0] /home/diegoguimaraes/.android/build-cache/68fde5f115bf8aef90e45be5f52faa097570ea28/output/AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v13:25.3.0] /home/diegoguimaraes/.android/build-cache/983dfa68ed285af2ff9f334d3ec6f48610d83f55/output/AndroidManifest.xml:23:9-52
+	android:targetSdkVersion
+		INJECTED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml
+		INJECTED from /home/diegoguimaraes/Documents/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v13:25.3.0] /home/diegoguimaraes/.android/build-cache/983dfa68ed285af2ff9f334d3ec6f48610d83f55/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/diegoguimaraes/.android/build-cache/63c44591a82c25aae8dfc6df1a94f3fff1de965b/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.0] /home/diegoguimaraes/.android/build-cache/1fa1dca773eb8ba280e5fec0b53bbe0ec1e81479/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /home/diegoguimaraes/.android/build-cache/547bb8c55853e5822ec44f3a837ef5cb358f0ee3/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/diegoguimaraes/.android/build-cache/e1071fd9b8a09b08cf181423fc9caba05efe30ee/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/diegoguimaraes/.android/build-cache/2717b708b2b409573c763cb268e45a1b04d8c8e7/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/diegoguimaraes/.android/build-cache/4bce77ad0365f3977e3de102d784d2685e39f72c/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:palette-v7:25.3.0] /home/diegoguimaraes/.android/build-cache/cb6dd9ce005d6d59a048cd74887ba5f0df531e21/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/diegoguimaraes/.android/build-cache/4eedbce2342a2ae0221a07696112a67c4e2f37bd/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /home/diegoguimaraes/.android/build-cache/1d152fe342fca541441adce9acc7f3d040395ed8/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/diegoguimaraes/.android/build-cache/036c94c6fd0d4539278622ebc89eca5f2dc37639/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] /home/diegoguimaraes/.android/build-cache/5c5a145a2213c6f738b2469cd0c86f2b022353dc/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.0] /home/diegoguimaraes/.android/build-cache/68fde5f115bf8aef90e45be5f52faa097570ea28/output/AndroidManifest.xml:22:5-24:34
+	android:value
+		ADDED from [com.android.support:support-v13:25.3.0] /home/diegoguimaraes/.android/build-cache/983dfa68ed285af2ff9f334d3ec6f48610d83f55/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-v13:25.3.0] /home/diegoguimaraes/.android/build-cache/983dfa68ed285af2ff9f334d3ec6f48610d83f55/output/AndroidManifest.xml:26:9-47
