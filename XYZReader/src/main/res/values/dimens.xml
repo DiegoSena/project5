@@ -7,5 +7,11 @@
     <dimen name="fab_elevation">2dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
+    <dimen name="padding_article_list">16dp</dimen>
+    <dimen name="padding_artile_list_bottom">4dp</dimen>
+    <dimen name="margin_cardview">4dp</dimen>
+    <dimen name="appbar_height">200dp</dimen>
+    <dimen name="author_text_size">16sp</dimen>
+    <dimen name="title_textview_size">30sp</dimen>
 
 </resources>

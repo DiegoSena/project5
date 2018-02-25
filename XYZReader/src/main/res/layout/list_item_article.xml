@@ -2,10 +2,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginLeft="4dp"
-    android:layout_marginRight="4dp"
-    android:layout_marginTop="4dp"
-    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="@dimen/margin_cardview"
+    android:layout_marginRight="@dimen/margin_cardview"
+    android:layout_marginTop="@dimen/margin_cardview"
+    android:layout_marginBottom="@dimen/margin_cardview"
     android:clickable="true"
     android:focusable="true">
 
@@ -17,6 +17,7 @@
         <!--suppress AndroidLintContentDescription -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
+            android:contentDescription="@string/article_inage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
@@ -25,10 +26,10 @@
             style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="16dp"
-            android:paddingTop="16dp"
-            android:paddingRight="16dp"
-            android:paddingBottom="4dp"
+            android:paddingLeft="@dimen/padding_article_list"
+            android:paddingTop="@dimen/padding_article_list"
+            android:paddingRight="@dimen/padding_article_list"
+            android:paddingBottom="@dimen/padding_artile_list_bottom"
             android:textColor="@color/textWhite"
             android:ellipsize="end"
             android:maxLines="4" />
@@ -38,9 +39,9 @@
             style="@style/TextAppearance.AppCompat.Body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:paddingBottom="16dp"
+            android:paddingLeft="@dimen/padding_article_list"
+            android:paddingRight="@dimen/padding_article_list"
+            android:paddingBottom="@dimen/padding_article_list"
             android:textColor="@color/textWhite"
             android:maxLines="2"
             android:ellipsize="end" />

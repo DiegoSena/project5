@@ -27,12 +27,16 @@ import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.example.xyzreader.R;
+import com.example.xyzreader.Utilities;
 import com.example.xyzreader.data.ArticleLoader;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.GregorianCalendar;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 /**
  * A fragment representing a single Article detail screen. This fragment is
@@ -47,12 +51,18 @@ public class ArticleDetailFragment extends Fragment implements
     private Cursor mCursor;
     private long mItemId;
     private View mRootView;
-    private ImageView mImageView;
-    private View mAppBar;
-    private View mArticleDetailContainer;
-    private TextView mArticleTitleTextView;
-    private TextView mArticleAuthorTextView;
-    private TextView mArticleBodyTextView;
+    @BindView(R.id.detail_imageview)
+    ImageView mImageView;
+    @BindView(R.id.app_bar)
+    View mAppBar;
+    @BindView(R.id.article_detail_container)
+    View mArticleDetailContainer;
+    @BindView(R.id.article_detail_title)
+    TextView mArticleTitleTextView;
+    @BindView(R.id.article_detail_author)
+     TextView mArticleAuthorTextView;
+    @BindView(R.id.article_textbody)
+    TextView mArticleBodyTextView;
     private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.sss");
     private GregorianCalendar START_OF_EPOCH = new GregorianCalendar(2,1,1);
     private SimpleDateFormat outputFormat = new SimpleDateFormat();
@@ -94,17 +104,12 @@ public class ArticleDetailFragment extends Fragment implements
             Bundle savedInstanceState) {
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
         mRootView.setVisibility(View.INVISIBLE);
+        ButterKnife.bind(this, mRootView);
         return mRootView;
     }
 
     private void bindViews() {
         if (mRootView != null) {
-            mImageView = (ImageView) mRootView.findViewById(R.id.detail_imageview);
-            mAppBar = mRootView.findViewById(R.id.app_bar);
-            mArticleDetailContainer = mRootView.findViewById(R.id.article_detail_container);
-            mArticleTitleTextView = (TextView) mRootView.findViewById(R.id.article_detail_title);
-            mArticleAuthorTextView = (TextView) mRootView.findViewById(R.id.article_detail_author);
-            mArticleBodyTextView = (TextView) mRootView.findViewById(R.id.article_textbody);
             if (mCursor != null) {
                 mRootView.setVisibility(View.VISIBLE);
                 setImage();
@@ -118,9 +123,7 @@ public class ArticleDetailFragment extends Fragment implements
                         .setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)))
                         .getIntent(), getString(R.string.action_share))));
             }
-
         }
-
     }
 
     private void setBody() {
@@ -128,15 +131,8 @@ public class ArticleDetailFragment extends Fragment implements
     }
 
     private void setAuthor() {
-        Date publishedDate = parsePublishedDate();
-        if (!publishedDate.before(START_OF_EPOCH.getTime())) {
-             mArticleAuthorTextView.setText(DateUtils.getRelativeTimeSpanString(
-                    publishedDate.getTime(),
-                    System.currentTimeMillis(), DateUtils.HOUR_IN_MILLIS,
-                    DateUtils.FORMAT_ABBREV_ALL).toString() + " by " + mCursor.getString(ArticleLoader.Query.AUTHOR));
-        }else{
-            mArticleAuthorTextView.setText(outputFormat.format(publishedDate) + " by " + mCursor.getString(ArticleLoader.Query.AUTHOR));
-        }
+        mArticleAuthorTextView.setText(Utilities.getSubtitleText(mCursor.getString(ArticleLoader.Query.PUBLISHED_DATE),
+                mCursor.getString(ArticleLoader.Query.AUTHOR)));
     }
 
     private void setTitle() {

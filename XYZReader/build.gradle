@@ -1,4 +1,9 @@
+
+
 buildscript {
+    ext{
+        butterknifeVersion = "8.8.1"
+    }
     repositories {
         mavenCentral()
     }
@@ -37,4 +42,6 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.1.2'
     compile 'com.github.bumptech.glide:glide:3.8.0'
     compile files('libs/volley.jar')
+    compile "com.jakewharton:butterknife:$butterknifeVersion"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$butterknifeVersion"
 }
