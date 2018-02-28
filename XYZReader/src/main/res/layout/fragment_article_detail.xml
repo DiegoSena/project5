@@ -10,13 +10,25 @@
         android:layout_height="@dimen/appbar_height"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-        <ImageView
-            android:id="@+id/detail_imageview"
-            android:layout_gravity="center_vertical|center_horizontal"
-            android:contentDescription="@string/article_inage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:toolbarId="@+id/toolbar">
+
+            <ImageView
+                android:id="@+id/detail_imageview"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:contentDescription="@string/article_inage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
     <android.support.v4.widget.NestedScrollView

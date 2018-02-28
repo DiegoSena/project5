@@ -13,5 +13,7 @@
     <dimen name="appbar_height">200dp</dimen>
     <dimen name="author_text_size">16sp</dimen>
     <dimen name="title_textview_size">30sp</dimen>
+    <dimen name="toolbar_elevation">8dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
 
 </resources>

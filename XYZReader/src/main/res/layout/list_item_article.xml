@@ -7,7 +7,8 @@
     android:layout_marginTop="@dimen/margin_cardview"
     android:layout_marginBottom="@dimen/margin_cardview"
     android:clickable="true"
-    android:focusable="true">
+    android:focusable="true"
+    app:cardElevation="@dimen/card_elevation">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,6 +18,7 @@
         <!--suppress AndroidLintContentDescription -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
+            android:scaleType="centerCrop"
             android:contentDescription="@string/article_inage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
